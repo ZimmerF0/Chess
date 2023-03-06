@@ -12,18 +12,24 @@
 }
 
 .board {
-  width: calc(64px * 8);
-  height: calc(64px * 8);
+  width: calc(81px * 8);
+  height: calc(81px * 8);
   display: flex;
   flex-wrap: wrap;
 }
 
 .cell {
-  width: 64px;
-  height: 64px;
+  width: 81px;
+  height: 81px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cell img {
+  width: 64px;
+  height: 64px;
+  position: relative;
 }
 
 .black {
